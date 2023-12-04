@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*Versão Desktop*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body { 
+    background: #FFFFFF no-repeat;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 470px){
+
+.a1 {
+    color: black;
+    font-size: 39px;
+    width: 473px;
+    height: 101px;
+    top: -200px;
+    left: 680px;
+    text-align: center;
+    position: relative;
+}
+
+.b1 {
+     display: flex;
+     position: relative;
+     text-align: center;
+     font-size: 28px;
+     font-style: normal;
+     line-height: normal;
+     top: -150px;
+     left: 650px;
+    
+     width: 580px;
+     height: 169px;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.one{
+    position: relative;
+    width: 552.51px;
+    height: 480.01px;
+    top: 200px;
+    left: 87.49px;
+}
+
+#containertela1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 400px;
+    position: relative;
+    gap: 20px;
+}
+
+#containertela1tela1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 20px;
+    position: relative;
+}
+
+.btn1a, .btn1b {
+    background-color: #3EB25E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 199px;
+    height: 36px;
+    border-radius: 35px;
+    flex-direction: row;
+
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    top: -180px;
+    left: 750px;
+}
+
+
+
+}
+
+

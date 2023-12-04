@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/*Versão Mobile-First*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body { 
+    background: #FFFFFF no-repeat;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+
+    .three {
+    width: 360px;
+    height: 344.04px;
+    top: 50px;
+    left: 60px;
+    position: relative;
+    
+    }
+
+    .containertela2tela2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 50px;
+    }
+
+    .wrapper {
+        padding: 0px;
+        margin-left: 100px;
+    }
+
+    .form-group {
+        cursor: pointer;
+        margin-top: 0;
+        font-size: 16px;
+        position: relative;
+        top: 30px;
+        left: -5px;
+    }
+
+    .checkbox {
+        cursor: pointer;
+        appearance: none;
+        background-color: #3EB25E4D;
+        width: 15px;
+        height: 15px;
+        border-radius: 5px;
+        outline: none; 
+    }
+
+    .checkbox::before{
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 5px;
+        background-color: #3EB25F;
+        opacity: 0;
+        transition: all 600ms ease-in-out;
+    }
+
+    .checkbox:checked:before{
+        opacity: 1;
+    }
+
+   #containerR {
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+
+   }
+
+   .tlthree{
+    font-size: 16px;
+    position: relative;
+    left: 0px;
+    top: 60px;
+    
+   }
+
+   .subtthree {
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    width: 55%;
+   }
+
+   #dr {
+    position: relative;
+    background-color: #fff;
+    width: 279px;
+    height: 33px;
+    top: 15px;
+    left: 100px;
+    border-radius: 20px;
+    border: 1px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #BFBFBF;
+   }
+
+   .un {
+    font-size: 12px;
+    color: #3EB25E4D;
+    transition: all 0.25s ease-in-out;
+   }
+
+   .clicked .un{
+    font-size: 12px;
+    color: #3EB25F;
+    transition: all 0.25s ease-in-out;
+  }
+
+   
+  .btn2a, .btn2b {
+    background-color: #3EB25E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 142px;
+    height: 26px;
+    border-radius: 35px;
+    flex-direction: row;
+
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    top: -40px;
+    left: 80px;
+}
+
+    .btn2c {
+        background-color: #3EB25E;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 306px;
+        height: 26px;
+        border-radius: 35px;
+        flex-direction: row;
+    
+        text-align: center;
+        line-height: 16px;
+        font-weight: bold;
+        position: relative;
+        align-items: center;
+        top: -110px;
+        left: 80px;
+    }
+
+  
+
+
+   
+}

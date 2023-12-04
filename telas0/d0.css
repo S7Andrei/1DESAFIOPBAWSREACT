@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/*Versão Desktop*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body { 
+    background: #FFFFFF no-repeat;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 470px) {
+
+.a0 {
+    color: black;
+    font-size: 111px;
+}
+
+.b0 {
+    color: black;
+    font-size: 29px;
+    text-decoration: none;
+}
+
+.zero{
+    width: 431px;
+    height: 661px;
+
+}
+
+.containertela0 {
+    display: flex;
+    align-items: center;
+    flex-direction: line;
+    top: 56px;
+    position: relative;
+    gap: 100px;
+    text-decoration: none;
+}
+
+.containertela1tela0{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn0 {
+    background-color: #3EB25E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 199px;
+    height: 36px;
+    border-radius: 35px;
+ 
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+    top: 50px;
+
+   
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+

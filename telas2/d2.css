@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*Versão Desktop*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body { 
+    background: #FFFFFF no-repeat;
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 470px){
+
+    .two {
+    width: 552.51px;
+    height: 528.01px;
+    top: 180px;
+    left: 87.49px;
+
+    position: relative;
+        
+        }
+    
+        #containertela2{
+            flex-direction: row;
+        }        
+
+        #containertela2tela2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 50px;
+        }
+    
+        .wrapper {
+            padding: 0px;
+            margin-left: 100px;
+        }
+    
+        .form-group {
+            cursor: pointer;
+            margin-top: 0;
+            font-size: 26px;
+            position: relative;
+            top: -240px;
+            left: 608px;
+        }
+    
+        .radio {
+            cursor: pointer;
+            appearance: none;
+            background-color: #3EB25E4D;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            outline: none; 
+        }
+    
+        .radio::before{
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #3EB25F;
+            opacity: 0;
+            transition: all 600ms ease-in-out;
+        }
+    
+        .radio:checked:before{
+            opacity: 1;
+        }
+    
+       #containerR {
+        display: flex;
+        flex-direction: row;
+        gap: -50px;
+    
+       }
+    
+       .tltwo{
+         width: 470px;
+         height: 40px;
+         top: -280px;
+         left: 688px;
+         position: relative;
+
+         font-size: 26px;
+         font-weight: 700;
+         line-height: 30px;
+         letter-spacing: 0em;
+         text-align: center;
+
+       }
+    
+       .subttwo {
+        font-size: 26px;
+        text-align: center;
+        position: relative;
+        top: -260px;
+        left: 332px;
+       }
+    
+       #dr {
+        position: relative;
+        background-color: #fff;
+        width: 481px;
+        height: 52px;
+        top: -300px;
+        left: 708px;
+        border-radius: 20px;
+        border: 1px;
+        font-size: 27px;
+        font-weight: 400px;
+        text-align: center;
+        border: 1px solid #BFBFBF;
+       }
+    
+       .un {
+        font-size: 22px;
+        color: #3EB25E4D;
+        transition: all 0.25s ease-in-out;
+       }
+    
+       .clicked .un{
+        font-size: 22px;
+        color: #3EB25F;
+        transition: all 0.25s ease-in-out;
+      }
+    
+       
+      .btn2a, .btn2b {
+        background-color: #3EB25E;
+        color: white;
+        font-size: 22px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 199px;
+        height: 36px;
+        border-radius: 35px;
+        flex-direction: row;
+    
+        text-align: center;
+        line-height: 16px;
+        font-weight: bold;
+        position: relative;
+        align-items: center;
+        top: -300px;
+        left: 708px;
+    }
+    
+        .btn2c {
+            background-color: #3EB25E;
+            color: white;
+            font-size: 22px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 430px;
+            height: 36px;
+            border-radius: 35px;
+            flex-direction: row;
+        
+            text-align: center;
+            line-height: 16px;
+            font-weight: bold;
+            position: relative;
+            align-items: center;
+            top: -360px;
+            left: 708px;
+        }
+    
+      
+    
+    
+           
+
+}
